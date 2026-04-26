@@ -108,7 +108,3 @@ John Smith - ML Engineer
 3 years Python, built BERT fine-tuning pipelines
 Some Kubernetes exposure, basic distributed systems
 ```
-
-## License
-
-MIT
