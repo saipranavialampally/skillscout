@@ -1,0 +1,132 @@
+{
+  "skills": {
+    "python": {
+      "adjacent": ["pytorch", "tensorflow", "keras", "scikit-learn", "pandas", "numpy", "django", "flask", "fastapi", "mlflow", "airflow"],
+      "category": "language"
+    },
+    "pytorch": {
+      "adjacent": ["python", "tensorflow", "keras", "deep learning", "computer vision", "nlp", "distributed training", "cuda"],
+      "category": "ml-framework"
+    },
+    "tensorflow": {
+      "adjacent": ["python", "pytorch", "keras", "deep learning", "computer vision", "nlp", "keras"],
+      "category": "ml-framework"
+    },
+    "keras": {
+      "adjacent": ["python", "pytorch", "tensorflow", "deep learning"],
+      "category": "ml-framework"
+    },
+    "deep learning": {
+      "adjacent": ["pytorch", "tensorflow", "keras", "computer vision", "nlp", "neural networks", "reinforcement learning"],
+      "category": "concept"
+    },
+    "machine learning": {
+      "adjacent": ["python", "scikit-learn", "deep learning", "statistics", "data analysis"],
+      "category": "concept"
+    },
+    "kubernetes": {
+      "adjacent": ["docker", "helm", "devops", "cloud", "microservices", "distributed systems"],
+      "category": "infrastructure"
+    },
+    "docker": {
+      "adjacent": ["kubernetes", "devops", "ci/cd", "microservices", "linux"],
+      "category": "infrastructure"
+    },
+    "rust": {
+      "adjacent": ["c++", "systems programming", "wasm", "embedded"],
+      "category": "language"
+    },
+    "c++": {
+      "adjacent": ["rust", "c", "systems programming", "cuda", "embedded"],
+      "category": "language"
+    },
+    "distributed training": {
+      "adjacent": ["pytorch", "tensorflow", "kubernetes", "distributed systems", "cuda", "mpi"],
+      "category": "ml-infra"
+    },
+    "mlflow": {
+      "adjacent": ["python", "pytorch", "tensorflow", "experiment tracking", "mlops"],
+      "category": "mlops"
+    },
+    "computer vision": {
+      "adjacent": ["pytorch", "tensorflow", "opencv", "deep learning", "image processing"],
+      "category": "ml-domain"
+    },
+    "nlp": {
+      "adjacent": ["pytorch", "tensorflow", "transformers", "deep learning", "bert", "gpt"],
+      "category": "ml-domain"
+    },
+    "transformers": {
+      "adjacent": ["pytorch", "nlp", "huggingface", "bert", "gpt", "deep learning"],
+      "category": "architecture"
+    },
+    "scikit-learn": {
+      "adjacent": ["python", "machine learning", "pandas", "numpy", "data analysis"],
+      "category": "ml-framework"
+    },
+    "pandas": {
+      "adjacent": ["python", "numpy", "scikit-learn", "data analysis", "sql"],
+      "category": "data"
+    },
+    "numpy": {
+      "adjacent": ["python", "pandas", "scikit-learn", "pytorch", "tensorflow"],
+      "category": "data"
+    },
+    "sql": {
+      "adjacent": ["pandas", "data analysis", "postgresql", "mysql", "databases"],
+      "category": "data"
+    },
+    "airflow": {
+      "adjacent": ["python", "etl", "data pipeline", "orchestration"],
+      "category": "data-engineering"
+    },
+    "devops": {
+      "adjacent": ["docker", "kubernetes", "ci/cd", "aws", "cloud", "linux"],
+      "category": "infrastructure"
+    },
+    "aws": {
+      "adjacent": ["cloud", "sagemaker", "lambda", "devops", "kubernetes"],
+      "category": "cloud"
+    },
+    "gcp": {
+      "adjacent": ["cloud", "vertex ai", "bigquery", "kubernetes"],
+      "category": "cloud"
+    },
+    "cuda": {
+      "adjacent": ["pytorch", "gpu", "c++", "parallel computing", "distributed training"],
+      "category": "hardware"
+    },
+    "javascript": {
+      "adjacent": ["typescript", "react", "node.js", "frontend"],
+      "category": "language"
+    },
+    "typescript": {
+      "adjacent": ["javascript", "react", "node.js", "frontend"],
+      "category": "language"
+    },
+    "react": {
+      "adjacent": ["javascript", "typescript", "frontend", "next.js"],
+      "category": "frontend"
+    },
+    "node.js": {
+      "adjacent": ["javascript", "typescript", "backend", "express"],
+      "category": "backend"
+    },
+    "java": {
+      "adjacent": ["spring", "jvm", "backend", "enterprise"],
+      "category": "language"
+    },
+    "go": {
+      "adjacent": ["kubernetes", "docker", "backend", "microservices", "systems programming"],
+      "category": "language"
+    },
+    "mlops": {
+      "adjacent": ["mlflow", "kubeflow", "ci/cd", "model deployment", "monitoring"],
+      "category": "mlops"
+    },
+    "statistics": {
+      "adjacent": ["machine learning", "data analysis", "probability", "python"],
+      "category": "concept"
+    }
+  }
+}
